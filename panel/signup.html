@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="../gtag/js_id_ua-156328778-1.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-156328778-1');
+</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="noindex" />
+    <script src="../panel/js/font-awesome.js"></script>
+<link rel="stylesheet" type="text/css" href="../npm/notie_4-3-1/dist/notie.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="../notie/dist/notie.min.css"> -->
+<link rel="stylesheet" href="../panel/css/style.css" />    <script src="../recaptcha/api.js"></script>
+    <title>Skid Panel | Signup</title>
+</head>
+<body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    <div class="content">
+        <!-- Main content -->
+        <main class="main main__centered">
+            <div class="signup">
+                <h1>Signup - Skid</h1>
+                <form class="form form-signup">
+                    <div class="form__item">
+                        <label class="form__label" for="name">Name</label>
+                        <input class="form__input" id="name" type="text" placeholder="John Doe" required name="name" maxlength="16">
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label" for="email">Email</label>
+                        <input class="form__input" id="email" type="email" placeholder="example@leet.cool" required name="email">
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label" for="password">Password</label>
+                        <input class="form__input" id="password" type="password" placeholder="••••••••" required minlength="8">
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label" for="password-confirm">Confirm Password</label>
+                        <input class="form__input" id="password-confirm" type="password" placeholder="••••••••" required minlength="8">
+                    </div>
+                    <div class="form__item">
+                        <div class="g-recaptcha mt-medium" data-sitekey="6LdtLLgUAAAAANHlO9AIco-qPKNYaDH5jaqH-Wjy"></div>
+                        <p class="terms mt-small">By clicking Sign Up, you agree to our <a href="../tos.html">Terms of Service</a>.</p>
+                        <button class="btn btn-main btn-signup">Sign Up</button>
+                        <p class="registered mt-medium">Already registered? <a href="../panel/login.html">Click to login</a>.</p>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="../npm/particles-js_2-0-0/particles.min.js"></script>
+<script src="../panel/js/particles.js"></script>
+<script src="../panel/js/bundle.js"></script></body>
+</html>
